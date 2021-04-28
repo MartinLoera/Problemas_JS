@@ -11,6 +11,7 @@ function fixTime(hr) {
     if (hr < 10) {
         hr = `0${hr}`
     }
+    return hr
 }
 console.log(hora)
 
